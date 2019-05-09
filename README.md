@@ -9,6 +9,7 @@ Declarations.h      sadrzi deklaracije funkcija
 StackFunctions.h    sadrzi funkcije vezane za listu (tj priority queue)
 GraphFunctions.h    sadrzi funkcije vezane za graf
 
-U BMP_folder-u se nalaze sve BMP filovei tj labirinit. 
+U BMP_folder-u se nalaze sve BMP filovei tj labirinit. Kada se izvrsi program rjesenje je spremljeno u BMP filu result.bmp.
 Kada budete pokrecali program bitno je da su sve slike u istom fajlu kao i main.c.
 Braid i combo bitmape su nesavrseni labirintis vise rjesenja, a svi ostali su savrseni s 1 rjesenjem.
+
