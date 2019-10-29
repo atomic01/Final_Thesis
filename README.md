@@ -1,15 +1,15 @@
-# Zavrsni_rad
-Rjesavanje problema labirinta A* algoritmom
+# Final_Thesis
+Solving The Maze Problems using A * algorithm
 
-Program je neoptimiziran. Za labirinte vece od 1000px x 1000px triba preko 8GB rama. Najveci koje sam rjesavao su bli 2000px x 2000px i potrebno je otprilike 10ak GB rama. Takoder je potrebno komplajlirat program kao 64 bitnu aplikaciju ne 32 bitnu jer ostane bez adresa u memoriji. Ako su manji labirinti onda to cak nije potrebno.
+The program is not optimized. For labyrinths larger than 1000px x 1000px you need over 8GB RAM. The biggest ones I handled were 2000px x 2000px and it took about 13GB of RAM. It is also necessary to compile the program as a 64-bit application not a 32-bit one because it runs out of addresses in memory. If they are smaller mazes then this is not even necessary.
 
-U code folderu se nalazi cili kod...
-main.c              sadrzi glavni program
-Declarations.h      sadrzi deklaracije funkcija
-StackFunctions.h    sadrzi funkcije vezane za listu (tj priority queue)
-GraphFunctions.h    sadrzi funkcije vezane za graf
+The code folder contains the entire code ...
+main.c contains the main program
+Declarations.h contains function declarations
+StackFunctions.h contains list related functions (ie priority queue)
+GraphFunctions.h contains graph related functions
 
-U BMP_folder-u se nalaze sve BMP filovei tj labirinit. Kada se izvrsi program rjesenje je spremljeno u BMP filu result.bmp.
-Kada budete pokrecali program bitno je da su sve slike u istom fajlu kao i main.c.
-Braid i combo bitmape su nesavrseni labirintis vise rjesenja, a svi ostali su savrseni s 1 rjesenjem.
+The BMP_folder contains all the BMP files, mazes. When the program is executed the solution is saved in the BMP file result.bmp.
+When running the program it is important that all the images are in the same file as the main.c.
+Braid and combo bitmaps are imperfect multiple solution labyrinths, and all others are perfect with 1 solution.
 
